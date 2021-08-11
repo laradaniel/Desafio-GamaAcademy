@@ -1,0 +1,90 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(to right, rgb(20, 155, 245), rgb(38, 16, 136));
+}
+
+.geral{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 8%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+}
+
+fieldset{
+    border: 2px solid rgb(38, 16, 136);
+}
+
+.titulo{
+    text-align: center;
+    color: rgb(38, 16, 136);
+}
+
+.box{
+    position: relative;
+}
+
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(38, 16, 136);
+    outline: none;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+
+}
+
+.linhaum{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+.linhadois{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.linhatres{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.linhaquatro{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.linhacinco{
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.linhaseis{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.linhasete{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+#submit{
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
